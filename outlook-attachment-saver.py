@@ -1,7 +1,9 @@
 import win32com.client
 import win32com
 
-rootfolder = "YOUREMAIL@freewheel.tv"
+#rootfolder is usually your outlook email address
+rootfolder = "YOUREMAIL@YOURDOMAIN.COM"
+#downloadfolder is the folder you want to clear/download from - usually 'Inbox'
 downloadfolder = "FOLDER-TO-CHECK"
 #You need to create this folder or use one that already exists
 filepath = "C:\\temp\\attachments\\" 
